@@ -70,10 +70,10 @@ q4a3.addEventListener("click", fountain);
 q4a4.addEventListener("click", american);
 
 //questions 5
-q4a1.addEventListener("click", fountain);
-q4a2.addEventListener("click", american);
-q4a3.addEventListener("click", skyward);
-q4a4.addEventListener("click", beautiful);
+q5a1.addEventListener("click", fountain);
+q5a2.addEventListener("click", american);
+q5a3.addEventListener("click", skyward);
+q5a4.addEventListener("click", beautiful);
 
 
 
@@ -119,16 +119,15 @@ function beautiful(){
 
 //update results: final answer
 function updateResults(){
-  if (skywardScore > 2){
+  if (skywardScore >= 2){
     results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
-  } else if (fountainScore > 2){
+  } else if (fountainScore >= 2){
     results.innerHTML = "We recommend The Fountains of Silence by Ruta Sepetys!"; 
-  } else if (americanScore > 2){
+  } else if (americanScore >= 2){
     results.innerHTML = "We recommend American Street by Ibi Zoboi!"; 
-  } else if (beautifulScore > 2){
+  } else if (beautifulScore >= 2){
     results.innerHTML = "We recommend The Beautiful by Renée Ahdieh!"; 
   } else {
     results.innerHTML="Try again";
   }
-  
 }
