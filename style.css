@@ -3,7 +3,7 @@
 body {
   font-family: 'EB Garamond', serif;
   margin: 2em;
-  background-color: #FFC971;
+  background-color: #cad2c5;
 }
 
 h1 {
@@ -24,13 +24,19 @@ p {
 
 button {
   font-size: 'EB Garamond', serif;
-  background-color: blue;
-  padding: 15px 32px;
+  transition-duration: 0.4s;
+  background-color: 354f52;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
 }
+
+button:hover {
+  background-color: #52796f; 
+}
+
 
 .question {
   display: flex;
@@ -40,6 +46,7 @@ button {
   
 .answer-choice img {
   height: 20em;
+  width: 13em;
   padding: 15px;
 }
 
