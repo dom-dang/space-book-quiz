@@ -34,6 +34,12 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+//questions 5
+var q5a1 = document.getElementById("q5a1");
+var q5a2 = document.getElementById("q5a2");
+var q5a3 = document.getElementById("q5a3");
+var q5a4 = document.getElementById("q5a4");
+
 var results = document.getElementById("result");
 
 
@@ -58,6 +64,12 @@ q3a3.addEventListener("click", american);
 q3a4.addEventListener("click", skyward);
 
 //questions 4
+q4a1.addEventListener("click", skyward);
+q4a2.addEventListener("click", beautiful);
+q4a3.addEventListener("click", fountain);
+q4a4.addEventListener("click", american);
+
+//questions 5
 q4a1.addEventListener("click", fountain);
 q4a2.addEventListener("click", american);
 q4a3.addEventListener("click", skyward);
@@ -70,9 +82,8 @@ q4a4.addEventListener("click", beautiful);
 function skyward(){
   skywardScore+=1;
   questionCount +=1; 
-  alert("Skyward!");
   
-  if (questionCount <=4){
+  if (questionCount ==5){
     updateResults();
   }
 }
@@ -80,9 +91,8 @@ function skyward(){
 function fountain(){
   fountainScore+=1;
   questionCount +=1; 
-  alert("fountain!");
   
-  if (questionCount <=4){
+  if (questionCount == 5){
     updateResults();
   }
 }
@@ -90,9 +100,8 @@ function fountain(){
 function american(){
   americanScore+=1;
   questionCount +=1; 
-  alert("american!");
   
-  if (questionCount <=4){
+  if (questionCount ==5){
     updateResults();
   }
 }
@@ -100,9 +109,8 @@ function american(){
 function beautiful(){
   beautifulScore+=1;
   questionCount +=1; 
-  alert("beautiful");
 
-  if (questionCount <=4){
+  if (questionCount ==5){
     updateResults();
   }
 }
@@ -111,17 +119,17 @@ function beautiful(){
 
 //update results: final answer
 function updateResults(){
-  if (skywardScore > 3){
+  if (skywardScore >= 2){
     results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
   }
-  if (fountainScore > 3){
-    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  if (fountainScore >= 2){
+    results.innerHTML = "We recommend The Fountains of Silence by Ruta Sepetys!"; 
   }
-  if (skywardScore > 3){
-    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  if (americanScore >= 2){
+    results.innerHTML = "We recommend American Street by Ibi Zoboi!"; 
   }
-  if (skywardScore > 3){
-    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  if (beautifulScore >= 2){
+    results.innerHTML = "We recommend The Beautiful by Renée Ahdieh!"; 
   }
   
 }
