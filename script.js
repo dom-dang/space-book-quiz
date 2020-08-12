@@ -79,11 +79,11 @@ q4a4.addEventListener("click", beautiful);
 
 
 //#TODO: Define quiz functions here
-function skyward(){
+function skyward(button){
   skywardScore+=1;
   questionCount +=1; 
   
-  if (questionCount ==5){
+  if (questionCount >=5){
     updateResults();
   }
 }
@@ -92,7 +92,7 @@ function fountain(){
   fountainScore+=1;
   questionCount +=1; 
   
-  if (questionCount == 5){
+  if (questionCount >=5){
     updateResults();
   }
 }
@@ -101,7 +101,7 @@ function american(){
   americanScore+=1;
   questionCount +=1; 
   
-  if (questionCount ==5){
+  if (questionCount >=5){
     updateResults();
   }
 }
@@ -110,7 +110,7 @@ function beautiful(){
   beautifulScore+=1;
   questionCount +=1; 
 
-  if (questionCount ==5){
+  if (questionCount >=5){
     updateResults();
   }
 }
@@ -119,17 +119,16 @@ function beautiful(){
 
 //update results: final answer
 function updateResults(){
-  if (skywardScore >= 2){
+  if (skywardScore > 2){
     results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
-  }
-  if (fountainScore >= 2){
+  } else if (fountainScore > 2){
     results.innerHTML = "We recommend The Fountains of Silence by Ruta Sepetys!"; 
-  }
-  if (americanScore >= 2){
+  } else if (americanScore > 2){
     results.innerHTML = "We recommend American Street by Ibi Zoboi!"; 
-  }
-  if (beautifulScore >= 2){
+  } else if (beautifulScore > 2){
     results.innerHTML = "We recommend The Beautiful by Renée Ahdieh!"; 
+  } else {
+    results.innerHTML="Try again";
   }
   
 }
