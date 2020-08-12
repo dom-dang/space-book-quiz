@@ -42,6 +42,7 @@ var q5a4 = document.getElementById("q5a4");
 
 var results = document.getElementById("result");
 
+var restart = document.getElementById("restart");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
@@ -75,6 +76,8 @@ q5a2.addEventListener("click", american);
 q5a3.addEventListener("click", skyward);
 q5a4.addEventListener("click", beautiful);
 
+
+restart.addEventListener("click", restartQuiz);
 
 
 
@@ -130,4 +133,14 @@ function updateResults(){
   } else {
     results.innerHTML="Try again";
   }
+}
+
+//restart
+function restartQuiz(){
+  questionCount =0; 
+  skywardScore =0;
+  fountainScore =0;
+  americanScore =0;
+  beautifulScore =0;
+  results.innerHTML="Your result is...";
 }

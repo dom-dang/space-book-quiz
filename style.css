@@ -10,34 +10,35 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: 50px;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
   color: #2f3e46;
 }
 
 h2 {
   margin-top: 2em; 
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 33px;
   color: #2f3e46;
 }
 
 p {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 button {
   display:flex;
   margin-left: 3px;
-  font-size: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
   transition-duration: 0.2s;
   background-color: #bdd5ea; 
   border: 0.5px solid;
+  width: 12.5em;
   padding: 16px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 button:hover {
