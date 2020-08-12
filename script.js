@@ -9,9 +9,6 @@ var beautifulScore = 0;
 
 
 
-
-
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 //questions 1 
 var q1a1 = document.getElementById("q1a1");
@@ -37,6 +34,8 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
+var results = document.getElementById("result");
+
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
@@ -47,9 +46,9 @@ q1a3.addEventListener("click", american);
 q1a4.addEventListener("click", beautiful);
 
 //questions 2
-q2a1.addEventListener("click", beautiful);
+q2a1.addEventListener("click", american);
 q2a2.addEventListener("click", skyward);
-q2a3.addEventListener("click", american);
+q2a3.addEventListener("click", beautiful);
 q2a4.addEventListener("click", fountain);
 
 //questions 3
@@ -67,27 +66,62 @@ q4a4.addEventListener("click", beautiful);
 
 
 
-
-
-
-
 //#TODO: Define quiz functions here
 function skyward(){
   skywardScore+=1;
-  questionCount +=1;  
+  questionCount +=1; 
+  alert("Skyward!");
+  
+  if (questionCount <=4){
+    updateResults();
+  }
 }
 
 function fountain(){
   fountainScore+=1;
   questionCount +=1; 
+  alert("fountain!");
+  
+  if (questionCount <=4){
+    updateResults();
+  }
 }
 
 function american(){
   americanScore+=1;
   questionCount +=1; 
+  alert("american!");
+  
+  if (questionCount <=4){
+    updateResults();
+  }
 }
 
 function beautiful(){
   beautifulScore+=1;
   questionCount +=1; 
+  alert("beautiful");
+
+  if (questionCount <=4){
+    updateResults();
+  }
+}
+
+
+
+//update results: final answer
+function updateResults(){
+  if (skywardScore > 3){
+    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  }
+  if (fountainScore > 3){
+    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  }
+  if (skywardScore > 3){
+    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  }
+  if (skywardScore > 3){
+    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+  }
+  
 }
