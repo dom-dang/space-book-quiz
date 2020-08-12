@@ -37,6 +37,7 @@ q1a1.addEventListener("click", skywardScore);
 
 
 
+
 //#TODO: Define quiz functions here
 function result1(){
   

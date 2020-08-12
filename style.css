@@ -8,13 +8,17 @@ body {
 
 h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 35px;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #2f3e46;
 }
 
 h2 {
   margin-top: 2em; 
   margin-bottom: 40px;
   font-size: 30px;
+  color: #2f3e46;
 }
 
 p {
@@ -23,8 +27,10 @@ p {
 }
 
 button {
+  display:flex;
+  margin-left: 13px;
   font-size: 'EB Garamond', serif;
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
   background-color: 354f52;
   padding: 15px 20px;
   text-align: center;
@@ -40,6 +46,8 @@ button:hover {
 
 .question {
   display: flex;
+  justify-content: center;
+  width: 14em;
   margin-top: 2em;
 }
 
