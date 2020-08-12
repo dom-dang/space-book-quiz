@@ -1,23 +1,31 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: 'EB Garamond', serif;
   margin: 2em;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
 }
 
 h2 {
   margin-top: 2em; 
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .question {
   display: flex;
   margin-top: 2em;
 }
+
   
 .answer-choice img {
   height: 10em;
