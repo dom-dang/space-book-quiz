@@ -28,11 +28,12 @@ p {
 
 button {
   display:flex;
-  margin-left: 13px;
+  margin-left: 3px;
   font-size: 'EB Garamond', serif;
   transition-duration: 0.2s;
-  background-color: 354f52;
-  padding: 15px 20px;
+  background-color: #bdd5ea; 
+  border: 0.5px solid;
+  padding: 16px 21px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
