@@ -125,7 +125,7 @@ function updateResults() {
       "We recommend American Street by Ibi Zoboi!<br><span class='rec'> On American Street, Fabiola Toussaint thought she was on the way to a good life. But as her and her family leave Haiti, her mother is detained by US immigration and she is left with her American family. Tackling unusual friends, odd cousins, and a new school, she is at an internal crossroad about the American Dream.  </span>";
   } else if (beautifulScore >= 2) {
     results.innerHTML =
-      "We recommend The Beautiful by Renée Ahdieh!<span class='rec'></span>";
+      "We recommend The Beautiful by Renée Ahdieh!<br><span class='rec'>Celine Rouseeau has found escape from her past in New Orleans, a city ruled by the dead. Twirling into the mysterious, glamorous city, Celine finds herself in the underworld with the enigmatic Sebastien Saint Germain. Suddenly, one of her friends is murdered but as Celine is solving the mystery, she discovered  </span>";
   } else {
     results.innerHTML = "Try again";
   }
