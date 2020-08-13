@@ -13,12 +13,13 @@ Created at the Summer Immersion Program with Girls Who Code
 _August 2020_
 
 Brainstorming
--Result 1: Emika Chen (numbers, hacking, sci fi)
--Result 2: Blue Sargent (whimsical, weird, future)
--Result 3: Delilah Bard (snarky, sassy, clever)
--Result 4: Amani Al’Hiza (confident, brave, loud)
--Result 5: Audrey Rose Wadsworth (science, dark, curious)
--Result 6: Ever Wong (quiet, daring, intelligent)
+
+- Result 1: Emika Chen (numbers, hacking, sci fi)
+- Result 2: Blue Sargent (whimsical, weird, future)
+- Result 3: Delilah Bard (snarky, sassy, clever)
+- Result 4: Amani Al’Hiza (confident, brave, loud)
+- Result 5: Audrey Rose Wadsworth (science, dark, curious)
+- Result 6: Ever Wong (quiet, daring, intelligent)
 
 
 1.
