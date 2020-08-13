@@ -70,6 +70,7 @@ button:hover {
 .rec {
   font-family: 'EB Garamond', serif;
   margin: 2em;
-  background-color: #cad2c5;
+  color: black;
+  font-size:23px;
   text-align: center;
 }
