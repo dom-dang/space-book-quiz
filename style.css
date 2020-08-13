@@ -71,6 +71,7 @@ button:hover {
   font-family: 'EB Garamond', serif;
   margin: 2em;
   color: black;
+  font-weight: normal;
   font-size:23px;
   text-align: center;
 }
