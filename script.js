@@ -116,10 +116,10 @@ function beautiful() {
 function updateResults() {
   if (skywardScore >= 2) {
     results.innerHTML =
-      "Recommendation: Skyward by Brandon Sanderson! <br><span class='rec'>The human race, or what's left it is, is trapped on a planet that is attacked by mysterious aliens. Spensa's dream has always been to become a pilot like her father. When she finds a mysterious spaceship that supposedly has a soul, joins fight school, and meets new people, she discoveres that not everything is as it seems. </span>";
+      "Recommendation: Skyward by Brandon Sanderson! <br><span class='rec'>The human race, or what's left it is, is trapped on a planet that is attacked by mysterious aliens. Spensa's dream has always been to become a pilot like her father. When she finds a mysterious spaceship that supposedly has a soul, joins fight school, and meets new people, she begins to question what she's fighting for. </span>";
   } else if (fountainScore >= 2) {
     results.innerHTML =
-      "Recommendation: The Fountains of Silence by Ruta Sepetys! <br><span class='rec'>A beautiful story of opression, love, and secrets in Madrid, under the fascist distatorship of General Francisco Franco. 18 year old Daniel Matheson, the son of a privileged tycoon, traveled to Spain to reconnect with his mother's birth country and found someone who is as intriguing as Madrid is dangerous. </span>";
+      "Recommendation: The Fountains of Silence by Ruta Sepetys! <br><span class='rec'>A beautiful story of opression, love, and secrets under the fascist distatorship of General Francisco Franco. Daniel Matheson, the son of a privileged tycoon, travels to Spain to reconnect with his mother's birth country. Through his photography, he finds someone who is as intriguing as Madrid is dangerous. </span>";
   } else if (americanScore >= 2) {
     results.innerHTML =
       "Recommendation: American Street by Ibi Zoboi!<br><span class='rec'> On American Street, Fabiola Toussaint thought she was on the way to a good life. But as her and her family leave Haiti, her mother is detained by US immigration and she is left with her American family. Tackling unusual friends, odd cousins, and a new school, she finds herself at an internal crossroad about the American Dream.</span>";
