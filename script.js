@@ -123,13 +123,13 @@ function beautiful(){
 //update results: final answer
 function updateResults(){
   if (skywardScore >= 2){
-    results.innerHTML = "We recommend Skyward by Brandon Sanderson!"; 
+    results.innerHTML = "<span class='rec'>We recommend Skyward by Brandon Sanderson! </span>"; 
   } else if (fountainScore >= 2){
-    results.innerHTML = "We recommend The Fountains of Silence by Ruta Sepetys!"; 
+    results.innerHTML = "<span class='rec'>We recommend The Fountains of Silence by Ruta Sepetys! </span>"; 
   } else if (americanScore >= 2){
-    results.innerHTML = "We recommend American Street by Ibi Zoboi!"; 
+    results.innerHTML = "<span class='rec'>We recommend American Street by Ibi Zoboi!</span>"; 
   } else if (beautifulScore >= 2){
-    results.innerHTML = "We recommend The Beautiful by Renée Ahdieh!"; 
+    results.innerHTML = "<span class='rec'>We recommend The Beautiful by Renée Ahdieh!</span>"; 
   } else {
     results.innerHTML="Try again";
   }
@@ -143,4 +143,6 @@ function restartQuiz(){
   americanScore =0;
   beautifulScore =0;
   results.innerHTML="Your result is...";
+  document.documentElement.scrollTop=0; 
 }
+
