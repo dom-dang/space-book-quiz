@@ -69,9 +69,8 @@ button:hover {
 
 .rec {
   font-family: 'EB Garamond', serif;
-  padding-right: 100px;
   color: black;
   font-weight: normal;
-  font-size:20px;
-  text-align: center;
+  font-size: 20px;
+  padding-right: 50px;
 }
