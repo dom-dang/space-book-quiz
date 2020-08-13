@@ -69,16 +69,16 @@ button:hover {
 
 .rec {
   font-family: 'EB Garamond', serif;
+  margin-right: 50px;
   color: black;
   font-weight: normal;
   font-size: 20px;
-  padding-right: 50px;
 }
 
 
 footer p{
   display:block;
-  font-size: 20px;
+  font-size: 19px;
   font-family: 'EB Garamond', serif;
   text-align: center;
   padding: 30px;
