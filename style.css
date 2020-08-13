@@ -60,6 +60,13 @@ button:hover {
   padding: 15px;
 }
 
+.answer-choice1 img {
+  height: 15em;
+  width: 17em;
+  padding: 15px;
+}
+
+
 .result {
   margin-top: 50px; 
   margin-bottom: 40px;
