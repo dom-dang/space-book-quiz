@@ -119,10 +119,10 @@ function updateResults() {
       "We recommend Skyward by Brandon Sanderson! <br><span class='rec'>The human race, or what's left it is, is trapped on a planet that is attacked by mysterious aliens. Spensa's dream has always been to become a pilot like her father. When she finds a mysterious spaceship that supposedly has a soul, joins fight school, and meets new people, she discoveres that not everything is as it seems. </span>";
   } else if (fountainScore >= 2) {
     results.innerHTML =
-      "We recommend The Fountains of Silence by Ruta Sepetys! <span class='rec'>A beautiful story of opression, love, and secrets in Madrid, under the fascist distatorship of General Francisco Franco. 18 year old Daniel Matheson, the son of a privileged tycoon, travels to Spain to reconnect with his mother's birth country. Through his photography, he finds Ana, a worker at the hotel, who is int</span>";
+      "We recommend The Fountains of Silence by Ruta Sepetys! <br><span class='rec'>A beautiful story of opression, love, and secrets in Madrid, under the fascist distatorship of General Francisco Franco. 18 year old Daniel Matheson, the son of a privileged tycoon, travels to Spain to reconnect with his mother's birth country and finds someone who is as intriguing as Madrid is dangerous. </span>";
   } else if (americanScore >= 2) {
     results.innerHTML =
-      "We recommend American Street by Ibi Zoboi!<span class='rec'></span>";
+      "We recommend American Street by Ibi Zoboi!<br><span class='rec'> On American Street, Fabiola Toussaint thought she was on the way to a good life. But as her and her family leave Haiti, her mother is detained by US immigration and she is left with her American family. Tackling unusual friends, odd cousins, and a new school, she is at an internal crossroad about the American Dream.  </span>";
   } else if (beautifulScore >= 2) {
     results.innerHTML =
       "We recommend The Beautiful by Renée Ahdieh!<span class='rec'></span>";
@@ -141,6 +141,3 @@ function restartQuiz() {
   results.innerHTML = "Your result is...";
   document.documentElement.scrollTop = 0;
 }
- flood into Spain under the welcoming promise of sunshine and wine. Among them is eighteen-year-old Daniel Matheson, the son of an oil tycoon, who arrives in Madrid with his parents hoping to connect with the country of his mother's birth through the lens of his camera. Photography--and fate--introduce him to Ana, whose family's interweaving obstacles reveal the lingering grasp of the Spanish Civil War--as well as chilling definitions of fortune and fear. Daniel's photographs leave him with uncomfortable questions amidst shadows of danger. He is backed into a corner of difficult decisions to protect those he loves. Lives and hearts collide, revealing an incredibly dark side to the sunny Spanish city.
-
-Includes vintage media reports, oral history commentary, photos, and more.
