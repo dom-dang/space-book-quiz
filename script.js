@@ -2,10 +2,12 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var skywardScore = 0;
-var fountainScore = 0;
-var americanScore = 0;
-var beautifulScore = 0;
+var emikaScore = 0;
+var blueScore = 0;
+var delilahScore = 0;
+var amaniScore = 0;
+var audreyScore = 0;
+var everScore = 0; 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 //questions 1
@@ -38,16 +40,30 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
+//questions 6
+var q6a1 = document.getElementById("q6a1");
+var q6a2 = document.getElementById("q6a2");
+var q6a3 = document.getElementById("q6a3");
+var q6a4 = document.getElementById("q6a4");
+
+//questions 7
+var q7a1 = document.getElementById("q7a1");
+var q7a2 = document.getElementById("q7a2");
+var q7a3 = document.getElementById("q7a3");
+var q7a4 = document.getElementById("q7a4");
+
 var results = document.getElementById("result");
 
 var restart = document.getElementById("restart");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 //questions 1
-q1a1.addEventListener("click", skyward);
-q1a2.addEventListener("click", fountain);
-q1a3.addEventListener("click", american);
-q1a4.addEventListener("click", beautiful);
+q1a1.addEventListener("click", emika);
+q1a2.addEventListener("click", blue);
+q1a3.addEventListener("click", delilah);
+q1a4.addEventListener("click", amani);
+q1a4.addEventListener("click", audrey);
+q1a4.addEventListener("click", ever);
 
 //questions 2
 q2a1.addEventListener("click", american);
@@ -76,8 +92,8 @@ q5a4.addEventListener("click", beautiful);
 restart.addEventListener("click", restartQuiz);
 
 //#TODO: Define quiz functions here
-function skyward(button) {
-  skywardScore += 1;
+function emika(button) {
+  emikaScore += 1;
   questionCount += 1;
 
   if (questionCount >= 5) {
@@ -85,8 +101,8 @@ function skyward(button) {
   }
 }
 
-function fountain() {
-  fountainScore += 1;
+function blue() {
+  blueScore += 1;
   questionCount += 1;
 
   if (questionCount >= 5) {
@@ -94,8 +110,8 @@ function fountain() {
   }
 }
 
-function american() {
-  americanScore += 1;
+function delilah() {
+  delilahScore += 1;
   questionCount += 1;
 
   if (questionCount >= 5) {
@@ -103,27 +119,47 @@ function american() {
   }
 }
 
-function beautiful() {
-  beautifulScore += 1;
+function amani() {
+  amaniScore += 1;
   questionCount += 1;
 
   if (questionCount >= 5) {
     updateResults();
   }
 }
+
+function audrey() {
+  audreyScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 5) {
+    updateResults();
+  }
+}
+
+function ever() {
+  everScore += 1;
+  questionCount += 1;
+
+  if (questionCount >= 5) {
+    updateResults();
+  }
+}
+
+
 
 //update results: final answer
 function updateResults() {
-  if (skywardScore >= 2) {
+  if (emikaScore>= 2) {
     results.innerHTML =
       "Recommendation: Skyward by Brandon Sanderson! <br><span class='rec'>The human race, or what's left it is, is trapped on a planet that is attacked by mysterious aliens. Spensa's dream has always been to become a pilot like her father. When she finds a mysterious spaceship that supposedly has a soul, joins fight school, and meets new people, she begins to question what she's fighting for. </span>";
-  } else if (fountainScore >= 2) {
+  } else if (blueScore >= 2) {
     results.innerHTML =
       "Recommendation: The Fountains of Silence by Ruta Sepetys! <br><span class='rec'>A beautiful story of opression, love, and secrets under the fascist distatorship of General Francisco Franco. Daniel Matheson, the son of a privileged tycoon, travels to Spain to reconnect with his mother's birth country. Through his photography, he finds someone who is as intriguing as Madrid is dangerous. </span>";
-  } else if (americanScore >= 2) {
+  } else if (delilahScore >= 2) {
     results.innerHTML =
       "Recommendation: American Street by Ibi Zoboi!<br><span class='rec'> On American Street, Fabiola Toussaint thought she was on the way to a good life. But as her and her family leave Haiti, her mother is detained by US immigration and she is left with her American family. Tackling unusual friends, odd cousins, and a new school, she finds herself at an internal crossroad about the American Dream.</span>";
-  } else if (beautifulScore >= 2) {
+  } else if (amaniScore >= 2) {
     results.innerHTML =
       "Recommendation: The Beautiful by Renée Ahdieh!<br><span class='rec'>Celine Rouseeau has found escape from her past in New Orleans, a city ruled by the dead. Twirling into the mysterious, glamorous city, Celine gets entailed in the underworld with the enigmatic Sebastien Saint Germain. Suddenly, one of her friends is murdered but as Celine is solving the mystery, she discovered an age-old feud that could disrupt all of New Orleans. </span>";
   } else {
