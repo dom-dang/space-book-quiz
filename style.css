@@ -27,6 +27,9 @@ p {
   font-size: 23px;
 }
 
+
+
+
 /* button work */
 
 button {
@@ -39,7 +42,7 @@ button {
   display: inline-block;
   text-align: center;
 }
-/*
+
 .answer-choice1 button {
   display: flex;
   margin-left: 3px;
@@ -48,18 +51,54 @@ button {
   background-color: #DAB785;
   border: 0.5px solid;
   width: 13em;
-  padding: 16px 21px;
+  height: 3.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 17px;
 }
 
-*/
+.answer-choice2 button {
+  display: flex;
+  margin-left: 5px;
+  font-family: "EB Garamond", serif;
+  transition-duration: 0.2s;
+  background-color: #DAB785;
+  border: 0.5px solid;
+  width: 11.75em;
+  height: 3.5em;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+#restart button {
+  display: flex;
+  margin-left: 5px;
+  font-family: "EB Garamond", serif;
+  transition-duration: 0.2s;
+  background-color: #DAB785;
+  border: 0.5px solid;
+  width: 11.75em;
+  height: 2em;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
 
 button:hover {
   background-color: #D5896F;
 }
+
+
+
+
+
 
 /* question & answerformat */
 .question {
@@ -69,14 +108,13 @@ button:hover {
   margin-top: 2em;
 }
 
-.answer-choiceTest img {
-  display: flex;
-  align-items: center;
+.answer-choice img {
   height: 20em;
-  width: 12.2em;
+  width: 13em;
+  padding-left: 10px;
 }
 
-.answer-choice img {
+.answer-choice2 img {
   height: 20em;
   width: 13em;
   padding-left: 10px;
@@ -87,6 +125,7 @@ button:hover {
   width: 14em;
   padding: 15px;
 }
+
 
 
 
