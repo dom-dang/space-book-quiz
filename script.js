@@ -188,24 +188,24 @@ function ever() {
 
 //update results: final answer
 function updateResults() {
-  if (emikaScore>= 2) {
+  if (emikaScore>= 3) {
     results.innerHTML =
       "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
-  } else if (blueScore >= 2) {
+  } else if (blueScore >= 3) {
     results.innerHTML =
       "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Witty, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
-  } else if (delilahScore >= 2) {
+  } else if (delilahScore >= 3) {
     results.innerHTML =
       "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionate, courageous, and proud Delilah Bard meets new people as often as she steals their pockets.</span>";
-  } else if (amaniScore >= 2) {
+  } else if (amaniScore >= 3) {
     results.innerHTML =
       "You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'>Adventurous, bold but wistful, Amani Al'Hiza wants to travel the world and discover what lays beyond her forsaken town. </span>";
-  } else if (audreyScore >= 2) {
+  } else if (audreyScore >= 3) {
     results.innerHTML =
       "You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'>Determined, methodical, and fiesty, Audrey Rose Wadsworth has faced a class full of men and a string of murders all in one day. </span>";
-  } else if (everScore >= 2) {
+  } else if (everScore >= 3) {
     results.innerHTML =
-      "You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'> </span>";
+      "You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'>Intrepid, quiet, risk-taker Ever Wong travels to Taiwan in hopes for new friends and freedom. It's up to her if she gets to keep them. </span>";
   } else {
     results.innerHTML = "Try again";
   }
