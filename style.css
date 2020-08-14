@@ -12,14 +12,14 @@ h1 {
   font-size: 50px;
   padding-top: 30px;
   padding-bottom: 35px;
-  color: 5e6472;
+  color: #0d3b66;
 }
 
 h2 {
   margin-top: 2em;
   margin-bottom: 40px;
   font-size: 33px;
-  color: #2f3e46;
+  color: #124764;
 }
 
 p {
@@ -31,25 +31,21 @@ p {
 
 button {
   display: flex;
-  margin-left: 2px;
-  font-family: "EB Garamond", serif;
-  transition-duration: 0.2s;
-  background-color: #bdd5ea;
+  margin-top: 2px;
+  padding: 5px;
+  height: 21em;
+  background-color: #DAB785;
   border: 0.5px solid;
-  width: 12.2em;
-  padding: 16px 25px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  text-align: center;
 }
-
+/*
 .answer-choice1 button {
   display: flex;
   margin-left: 3px;
   font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
-  background-color: #bdd5ea;
+  background-color: #DAB785;
   border: 0.5px solid;
   width: 13em;
   padding: 16px 21px;
@@ -59,19 +55,10 @@ button {
   font-size: 17px;
 }
 
-.answer-choiceTest button {
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  display: block;
-  width: 13em;
-  height: 21em;
-  text-align: center;
-  align-items: flex-start;
-}
+*/
 
 button:hover {
-  background-color: #52796f;
+  background-color: #D5896F;
 }
 
 /* question & answerformat */
@@ -101,6 +88,8 @@ button:hover {
   padding: 15px;
 }
 
+
+
 /* result and paragraph */
 .result {
   margin-top: 50px;
@@ -116,6 +105,7 @@ button:hover {
   font-weight: normal;
   font-size: 20px;
 }
+
 
 /*footer */
 footer p {
