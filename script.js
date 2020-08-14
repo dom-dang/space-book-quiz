@@ -134,7 +134,7 @@ function emika(button) {
   emikaScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 7) {
     updateResults();
   }
 }
@@ -143,7 +143,7 @@ function blue() {
   blueScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 7) {
     updateResults();
   }
 }
@@ -152,7 +152,7 @@ function delilah() {
   delilahScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 7) {
     updateResults();
   }
 }
@@ -170,7 +170,7 @@ function audrey() {
   audreyScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 7) {
     updateResults();
   }
 }
@@ -179,7 +179,7 @@ function ever() {
   everScore += 1;
   questionCount += 1;
 
-  if (questionCount >= 5) {
+  if (questionCount >= 7) {
     updateResults();
   }
 }
@@ -190,22 +190,22 @@ function ever() {
 function updateResults() {
   if (emikaScore>= 2) {
     results.innerHTML =
-      "Recommendation: Skyward by Brandon Sanderson! <br><span class='rec'>The human race, or what's left it is, is trapped on a planet that is attacked by mysterious aliens. Spensa's dream has always been to become a pilot like her father. When she finds a mysterious spaceship that supposedly has a soul, joins fight school, and meets new people, she begins to question what she's fighting for. </span>";
+      "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
   } else if (blueScore >= 2) {
     results.innerHTML =
-      "Recommendation: The Fountains of Silence by Ruta Sepetys! <br><span class='rec'>A beautiful story of opression, love, and secrets under the fascist distatorship of General Francisco Franco. Daniel Matheson, the son of a privileged tycoon, travels to Spain to reconnect with his mother's birth country. Through his photography, he finds someone who is as intriguing as Madrid is dangerous. </span>";
+      "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Witty, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
   } else if (delilahScore >= 2) {
     results.innerHTML =
-      "Recommendation: American Street by Ibi Zoboi!<br><span class='rec'> On American Street, Fabiola Toussaint thought she was on the way to a good life. But as her and her family leave Haiti, her mother is detained by US immigration and she is left with her American family. Tackling unusual friends, odd cousins, and a new school, she finds herself at an internal crossroad about the American Dream.</span>";
+      "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionated, courageous, and proud Delilah Bard </span>";
   } else if (amaniScore >= 2) {
     results.innerHTML =
-      "Recommendation: The Beautiful by Renée Ahdieh!<br><span class='rec'>Celine Rouseeau has found escape from her past in New Orleans, a city ruled by the dead. Twirling into the mysterious, glamorous city, Celine gets entailed in the underworld with the enigmatic Sebastien Saint Germain. Suddenly, one of her friends is murdered but as Celine is solving the mystery, she discovered an age-old feud that could disrupt all of New Orleans. </span>";
+      "You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'></span>";
   } else if (audreyScore >= 2) {
     results.innerHTML =
-      "Recommendation: The Beautiful by Renée Ahdieh!<br><span class='rec'>Celine Rouseeau has found escape from her past in New Orleans, a city ruled by the dead. Twirling into the mysterious, glamorous city, Celine gets entailed in the underworld with the enigmatic Sebastien Saint Germain. Suddenly, one of her friends is murdered but as Celine is solving the mystery, she discovered an age-old feud that could disrupt all of New Orleans. </span>";
+      "You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'></span>";
   } else if (everScore >= 2) {
     results.innerHTML =
-      "Recommendation: The Beautiful by Renée Ahdieh!<br><span class='rec'>Celine Rouseeau has found escape from her past in New Orleans, a city ruled by the dead. Twirling into the mysterious, glamorous city, Celine gets entailed in the underworld with the enigmatic Sebastien Saint Germain. Suddenly, one of her friends is murdered but as Celine is solving the mystery, she discovered an age-old feud that could disrupt all of New Orleans. </span>";
+      "You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'> </span>";
   } else {
     results.innerHTML = "Try again";
   }
