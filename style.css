@@ -37,20 +37,23 @@ button {
   margin-top: 2px;
   padding: 5px;
   height: 21em;
-  background-color: #DAB785;
+  background-color: #0d3b66;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 8px;
+  padding-left: 0px;
   border: 0.5px solid;
   display: inline-block;
-  text-align: center;
 }
 
 .answer-choice1 button {
   display: flex;
-  margin-left: 3px;
+  margin-left: 15px;
   font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
-  background-color: #DAB785;
+  background-color: #0d3b66;
   border: 0.5px solid;
-  width: 13em;
+  width: 12.25em;
   height: 3.5em;
   text-align: center;
   text-decoration: none;
@@ -60,10 +63,26 @@ button {
 
 .answer-choice2 button {
   display: flex;
+  margin-left: 27px;
+  font-family: "EB Garamond", serif;
+  transition-duration: 0.2s;
+  background-color: #0d3b66;
+  border: 0.5px solid;
+  width: 12.25em;
+  height: 3.5em;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+#restart{
+  display: flex;
   margin-left: 5px;
   font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
-  background-color: #DAB785;
+  background-color: #0d3b66;
   border: 0.5px solid;
   width: 11.75em;
   height: 3.5em;
@@ -73,26 +92,13 @@ button {
   display: inline-block;
   font-size: 17px;
 }
-
-#restart button {
-  display: flex;
-  margin-left: 5px;
-  font-family: "EB Garamond", serif;
-  transition-duration: 0.2s;
-  background-color: #DAB785;
-  border: 0.5px solid;
-  width: 11.75em;
-  height: 2em;
-  padding: 16px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 17px;
+#restart:hover{
+  background-color: #8da9c4;
 }
 
 
 button:hover {
-  background-color: #D5896F;
+  background-color: #8da9c4;
 }
 
 
@@ -117,13 +123,14 @@ button:hover {
 .answer-choice2 img {
   height: 20em;
   width: 13em;
-  padding-left: 10px;
+  margin: 0px;
+  padding-left: 2px;
 }
 
 .answer-choice1 img {
-  height: 15em;
-  width: 14em;
-  padding: 15px;
+  height: 14em;
+  width: 13em;
+  padding-left: 2px;
 }
 
 
