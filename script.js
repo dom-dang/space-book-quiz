@@ -184,10 +184,11 @@ function ever() {
   }
 }
 
-var finalCount = Math.max(emikaScore, blueScore, delilahScore, amaniScore, audreyScore, everScore);
+
 
 //update results: final answer
 function updateResults() {
+  var finalCount = Math.max(emikaScore, blueScore, delilahScore, amaniScore, audreyScore, everScore);
   if (emikaScore == finalCount) {
     results.innerHTML =
       "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
