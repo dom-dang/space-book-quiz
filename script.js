@@ -196,13 +196,13 @@ function updateResults() {
       "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Witty, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
   } else if (delilahScore >= 2) {
     results.innerHTML =
-      "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionated, courageous, and proud Delilah Bard </span>";
+      "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionate, courageous, and proud Delilah Bard meets new people as often as she steals their pockets.</span>";
   } else if (amaniScore >= 2) {
     results.innerHTML =
-      "You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'></span>";
+      "You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'>Adventurous, bold but wistful, Amani Al'Hiza wants to travel the world and discover what lays beyond her forsaken town. </span>";
   } else if (audreyScore >= 2) {
     results.innerHTML =
-      "You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'></span>";
+      "You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'>Determined, methodical, and fiesty, Audrey Rose Wadsworth has faced a class full of men and a string of murders all in one day. </span>";
   } else if (everScore >= 2) {
     results.innerHTML =
       "You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'> </span>";
