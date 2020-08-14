@@ -7,7 +7,7 @@ var blueScore = 0;
 var delilahScore = 0;
 var amaniScore = 0;
 var audreyScore = 0;
-var everScore = 0; 
+var everScore = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 //questions 1
@@ -184,11 +184,9 @@ function ever() {
   }
 }
 
-
-
 //update results: final answer
 function updateResults() {
-  if (emikaScore>= 3) {
+  if (emikaScore >= 3) {
     results.innerHTML =
       "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
   } else if (blueScore >= 3) {

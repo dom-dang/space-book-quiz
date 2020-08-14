@@ -2,13 +2,13 @@
 
 /* general formatting */
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   margin: 2em;
   background-color: #faf3dd;
 }
 
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 50px;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
   margin-bottom: 40px;
   font-size: 33px;
   color: #2f3e46;
@@ -27,19 +27,14 @@ p {
   font-size: 23px;
 }
 
-
-
-
-
-
 /* button work */
 
 button {
-  display:flex;
+  display: flex;
   margin-left: 2px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
-  background-color: #bdd5ea; 
+  background-color: #bdd5ea;
   border: 0.5px solid;
   width: 12.2em;
   padding: 16px 25px;
@@ -50,11 +45,11 @@ button {
 }
 
 .answer-choice1 button {
-  display:flex;
+  display: flex;
   margin-left: 3px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
-  background-color: #bdd5ea; 
+  background-color: #bdd5ea;
   border: 0.5px solid;
   width: 13em;
   padding: 16px 21px;
@@ -64,11 +59,21 @@ button {
   font-size: 17px;
 }
 
-button:hover {
-  background-color: #52796f; 
+.answer-choiceTest button {
+  background: url("https://images.unsplash.com/photo-1504387103978-e4ee71416c38?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: block;
+  width: 12.2em;
+  height: 20em;
+  text-align: center;
+  align-items: flex-start;
 }
 
-
+button:hover {
+  background-color: #52796f;
+}
 
 /* question & answerformat */
 .question {
@@ -78,10 +83,11 @@ button:hover {
   margin-top: 2em;
 }
 
-
-.answer-choiceTest {
+.answer-choiceTest img {
+  display: flex;
+  align-items: center;
   height: 20em;
-  width: 13em;
+  width: 12.2em;
 }
 
 .answer-choice img {
@@ -96,37 +102,27 @@ button:hover {
   padding: 15px;
 }
 
-
-
-
-
-
-
-
 /* result and paragraph */
 .result {
-  margin-top: 50px; 
+  margin-top: 50px;
   margin-bottom: 40px;
   font-size: 30px;
   color: #2f3e46;
 }
 
 .rec {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   margin-right: 50px;
   color: black;
   font-weight: normal;
   font-size: 20px;
 }
 
-
-
-
 /*footer */
-footer p{
-  display:block;
+footer p {
+  display: block;
   font-size: 19px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   text-align: center;
   padding: 30px;
 }
