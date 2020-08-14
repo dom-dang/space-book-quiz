@@ -193,7 +193,7 @@ function updateResults() {
       "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
   } else if (blueScore >= 3) {
     results.innerHTML =
-      "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Witty, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
+      "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Whimsical, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
   } else if (delilahScore >= 3) {
     results.innerHTML =
       "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionate, courageous, and proud Delilah Bard meets new people as often as she steals their pockets.</span>";
