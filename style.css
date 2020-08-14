@@ -36,7 +36,7 @@ button {
   display: flex;
   margin-top: 2px;
   padding: 5px;
-  height: 21em;
+  height: 24em;
   background-color: #0d3b66;
   margin-left: 15px;
   margin-right: 15px;
@@ -63,7 +63,7 @@ button {
 
 .answer-choice2 button {
   display: flex;
-  margin-left: 27px;
+  margin-left: 13px;
   font-family: "EB Garamond", serif;
   transition-duration: 0.2s;
   background-color: #0d3b66;
@@ -115,16 +115,9 @@ button:hover {
 }
 
 .answer-choice img {
-  height: 20em;
-  width: 13em;
+  height: 23em;
+  width: 14em;
   padding-left: 10px;
-}
-
-.answer-choice2 img {
-  height: 20em;
-  width: 13em;
-  margin: 0px;
-  padding-left: 2px;
 }
 
 .answer-choice1 img {
@@ -132,6 +125,15 @@ button:hover {
   width: 13em;
   padding-left: 2px;
 }
+
+.answer-choice2 img {
+  height: 21em;
+  width: 13em;
+  margin: 2px;
+  padding-left: 5px;
+}
+
+
 
 
 
