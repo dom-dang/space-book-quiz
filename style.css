@@ -1,5 +1,6 @@
 /* CSS files add styling rules to your content */
 
+/* general formatting */
 body {
   font-family: 'EB Garamond', serif;
   margin: 2em;
@@ -26,15 +27,22 @@ p {
   font-size: 23px;
 }
 
+
+
+
+
+
+/* button work */
+
 button {
   display:flex;
-  margin-left: 1px;
+  margin-left: 2px;
   font-family: 'EB Garamond', serif;
   transition-duration: 0.2s;
   background-color: #bdd5ea; 
   border: 0.5px solid;
-  width: 12.25em;
-  padding: 16px 21px;
+  width: 12.2em;
+  padding: 16px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -55,12 +63,14 @@ button {
   display: inline-block;
   font-size: 17px;
 }
-  
+
 button:hover {
   background-color: #52796f; 
 }
 
 
+
+/* question & answerformat */
 .question {
   display: flex;
   justify-content: center;
@@ -68,11 +78,16 @@ button:hover {
   margin-top: 2em;
 }
 
-  
+
+.answer-choiceTest {
+  height: 20em;
+  width: 13em;
+}
+
 .answer-choice img {
   height: 20em;
   width: 13em;
-  padding: 15px;
+  padding-left: 10px;
 }
 
 .answer-choice1 img {
@@ -82,6 +97,13 @@ button:hover {
 }
 
 
+
+
+
+
+
+
+/* result and paragraph */
 .result {
   margin-top: 50px; 
   margin-bottom: 40px;
@@ -98,6 +120,9 @@ button:hover {
 }
 
 
+
+
+/*footer */
 footer p{
   display:block;
   font-size: 19px;
