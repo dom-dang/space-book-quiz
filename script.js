@@ -129,6 +129,15 @@ q7a6.addEventListener("click", amani);
 
 restart.addEventListener("click", restartQuiz);
 
+
+//function for onclick 
+function activeButton(id){
+  document.getElementById(id).style.backgroundColor= "#B1BBC9";
+  document.getElementById(id).disabled = true;
+}
+
+
+
 //#TODO: Define quiz functions here
 function emika(button) {
   emikaScore += 1;
@@ -191,22 +200,22 @@ function updateResults() {
   var finalCount = Math.max(emikaScore, blueScore, delilahScore, amaniScore, audreyScore, everScore);
   if (emikaScore == finalCount) {
     results.innerHTML =
-      "You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span>";
+      "<center>You got Emika Chen from Warcross by Marie Lu <br><span class='rec'>Independent, quick thinker, observant, but often distrustful with strangers, Emika Chen is a force to be reckoned with when she's hacking.  </span></center>";
   } else if (blueScore == finalCount) {
     results.innerHTML =
-      "You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Whimsical, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitve and caring to her friends. </span>";
+      "<center>You got Blue Sargent from The Raven Boys by Maggie Stiefvater <br><span class='rec'>Whimsical, opinionated, and ambitious, Blue Sargent is not afraid to speak her mind. Despite her hardsell on the outside, she is sensitive and caring to her friends. </span></center>";
   } else if (delilahScore == finalCount) {
     results.innerHTML =
-      "You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionate, courageous, and proud Delilah Bard meets new people as often as she steals their pockets.</span>";
+      "<center>You got Delilah Bard from A Darker Shade of Magic by VE Schwab <br><span class='rec'>Daring, passionate, courageous, and proud Delilah Bard meets new people as often as she steals their pockets.</span></center>";
   } else if (amaniScore == finalCount) {
     results.innerHTML =
-      "You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'>Adventurous, bold but wistful, Amani Al'Hiza wants to travel the world and discover what lays beyond her forsaken town. </span>";
+      "<center>You got Amani Al'Hiza from Rebel of the Sands by Alwyn Hamilton<br><span class='rec'>Adventurous, bold but wistful, Amani Al'Hiza wants to travel the world and discover what lays beyond her forsaken town. </span></center>";
   } else if (audreyScore == finalCount) {
     results.innerHTML =
-      "You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'>Determined, methodical, and fiesty, Audrey Rose Wadsworth has faced a class full of men and a string of murders all in one day. </span>";
+      "<center>You got Audrey Rose Wadsworth from Stalking Jack the Ripper by Kerri Maniscalco<br><span class='rec'>Determined, methodical, and fiesty, Audrey Rose Wadsworth has faced a class full of men and a string of murders all in one day. </span> </center>";
   } else if (everScore == finalCount) {
     results.innerHTML =
-      "You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'>Intrepid, quiet, risk-taker Ever Wong travels to Taiwan in hopes for new friends and freedom. It's up to her if she gets to keep them. </span>";
+      "<center>You got Ever Wong from Loveboat, Taipei by Abigail Hing Wen<br><span class='rec'>Intrepid, quiet, risk-taker Ever Wong travels to Taiwan in hopes for new friends and freedom. It's up to her if she gets to keep them. </span></center>";
   } else {
     results.innerHTML = "Try again";
   }
@@ -223,4 +232,11 @@ function restartQuiz() {
   everScore = 0;
   results.innerHTML = "Your result is...";
   document.documentElement.scrollTop = 0;
+}
+
+//unactivate the buttons
+
+function unActive() {
+  document.getElementById('q1a1').style.backgroundColor= "#0d3b66";
+  document.getElementById("q1a1").disabled= false;
 }
