@@ -1,5 +1,7 @@
 # Personality Quiz
 
+---
+
 ## Choose Things in Space and I'll Tell You What YA Protagonist You Are
 
 Created at the Summer Immersion Program with Girls Who Code
